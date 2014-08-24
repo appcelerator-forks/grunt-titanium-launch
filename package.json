@@ -1,0 +1,42 @@
+{
+  "name": "grunt-titanium-launch",
+  "description": "Quickly create and launch Titanium apps",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tlukasavage/grunt-titanium-launch",
+  "author": {
+    "name": "Tony Lukasavage",
+    "email": "anthony.lukasavage@gmail.com",
+    "url": "http://tonylukasavage.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlukasavage/grunt-titanium-launch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlukasavage/grunt-titanium-launch/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tlukasavage/grunt-titanium-launch/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
